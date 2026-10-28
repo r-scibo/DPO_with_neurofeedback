@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fine-tuning a language model on brain signals</title>
+<meta name="description" content="A feasibility study: EEG-decoded judgments steer when a language model cites its sources, person by person.">
+<meta name="author" content="Riccardo Scibetta">
+<style>
+  :root { --ink: #111; --ink2: #6b6b6b; --rule: #e6e6e6; --accent: #2a6fdb; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: #fff; color: var(--ink);
+         font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 72px 20px 96px; }
+  h1 { font-size: 32px; line-height: 1.2; font-weight: 650; letter-spacing: -0.01em; margin: 0 0 12px; }
+  .sub { color: var(--ink2); font-size: 19px; line-height: 1.45; margin: 0 0 20px; }
+  .byline { color: var(--ink2); font-size: 15px; margin: 0 0 56px; }
+  h2 { font-size: 21px; font-weight: 650; margin: 56px 0 12px; }
+  p { margin: 0 0 18px; }
+  a { color: var(--ink); text-decoration-color: #bbb; text-underline-offset: 3px; }
+  a:hover { text-decoration-color: var(--ink); }
+  figure { margin: 32px 0 36px; }
+  figure img { display: block; width: 100%; height: auto; }
+  figcaption { color: var(--ink2); font-size: 14.5px; line-height: 1.5; margin-top: 12px; }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  .step { border-top: 2px solid var(--ink); padding-top: 10px; font-size: 14.5px; line-height: 1.45; }
+  .step b { display: block; font-size: 15px; margin-bottom: 4px; }
+  .step span { color: var(--ink2); }
+  blockquote { margin: 28px 0; padding: 0 0 0 18px; border-left: 2px solid var(--accent); font-size: 19px; line-height: 1.5; }
+  .refs { font-size: 14px; line-height: 1.55; color: var(--ink2); padding-left: 18px; }
+  .refs li { margin-bottom: 6px; }
+  .refs a { color: var(--ink2); }
+  hr { border: none; border-top: 1px solid var(--rule); margin: 56px 0 28px; }
+  .foot { font-size: 14.5px; color: var(--ink2); }
+  @media (max-width: 600px) {
+    main { padding: 40px 16px 64px; }
+    h1 { font-size: 27px; }
+    .steps { grid-template-columns: 1fr 1fr; gap: 18px 14px; }
+    .pair { grid-template-columns: 1fr; gap: 28px; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Fine-tuning a language model on brain signals</h1>
+<p class="sub">Steering a language model, person by person, with EEG alone.</p>
+<p class="byline">Riccardo Scibetta · October 2026</p>
+
+<p>We fine-tuned a language model on nothing but people's brain signals, and each person's model picked up their
+preference. Forty-four people listened to a voice assistant's answers, some citing a source and some not, while their
+EEG was recorded. From the EEG alone, we decoded how interesting each answer felt to them, turned that into preference
+data, and trained one small model per person. People who liked sourced answers got models that cite more; people who
+didn't got models that cite less.</p>
+
+<p>This is where AI training is heading. Brain signals already <a href="https://infoscience.epfl.ch/record/149292">reward robots</a>
+and <a href="https://research.fi/en/results/publication/0398861823">steer image generators</a>, and the first studies now
+point them at language models and agents (<a href="https://ojs.aaai.org/index.php/AAAI/article/view/38823">Santaniello et al., 2026</a>;
+<a href="https://proceedings.mlr.press/v308/short26a.html">Short et al., 2026</a>;
+<a href="https://aclanthology.org/2025.hcinlp-1.17">Harada &amp; Oseki, 2025</a>). Our question is narrower and more practical: can one person's EEG change how a
+model behaves for them?</p>
+
+<h2>The experiment</h2>
+<p>The data come from a public study (<a href="https://doi.org/10.1038/s41597-024-03887-9">Choi et al., 2024</a>).
+Each person heard 80 answers, each to a different question. Half of them named their
+source ("According to Wikipedia, …") and half didn't. After each one, people rated it on nine judgments, from how
+interesting it was to how easy it was to understand.</p>
+<figure>
+  <div class="steps">
+    <div class="step"><b>1. Decode</b><span>From 4 seconds of EEG, predict how interesting the person found each answer.</span></div>
+    <div class="step"><b>2. Compare</b><span>Count how often answers with a source beat answers without one. That is the person's preference.</span></div>
+    <div class="step"><b>3. Fine-tune</b><span>Train one small adapter per person with DPO, on pairs that differ only in the source.</span></div>
+    <div class="step"><b>4. Test</b><span>Ask 236 new questions and measure how often the model cites a source.</span></div>
+  </div>
+  <figcaption>From EEG to a personal model. The decoder is calibrated on part of the person's data and scores answers it hasn't seen.</figcaption>
+</figure>
+<p>The key is step 3. Each training pair is the same question answered twice, once with the source and once without,
+so the only thing the model can learn is how often to cite. The person's decoded preference sets how often the sourced
+version wins. We used Qwen2.5-1.5B-Instruct, which cites a source in 47% of its answers before fine-tuning.</p>
+<p>How good is the decoder? It learns from very little: 64 answers per person, 4 seconds of EEG each, about four
+minutes in total. Given two new answers, it picks the one the person found more interesting 55% of the time,
+where chance is 50% (p &lt; 0.005). That is weak for any single answer, but the model only needs the overall share, built from many
+comparisons. Fine-tuning also leaves the model's knowledge intact: it answers 86% of the test questions correctly, and
+no EEG-trained model loses more than 2.2 points.</p>
+
+<h2>Each model follows its person</h2>
+<figure>
+  <div class="pair">
+    <img src="figures/personal_real.svg" alt="Scatter plot, one dot per person. x: the person's preference for sourced answers, from their ratings. y: change in how often their model cites, trained on their ratings. Rho 0.91.">
+    <img src="figures/personal_calibrated.svg" alt="Scatter plot, one dot per person. x: the person's preference for sourced answers, from their ratings. y: change in how often their model cites, trained on their EEG. Rho 0.33, p 0.013.">
+  </div>
+  <figcaption>One dot per person. The EEG-trained models never saw the ratings on the x-axis. Each panel has its own scale.</figcaption>
+</figure>
+<p>The EEG-trained models cite more for people who genuinely prefer sourced answers, and less for people who don't
+(Spearman ρ = 0.33 across 44 people, p = 0.013, in a test we registered before running it). Trained on the same
+people's ratings instead, the models reach ρ = 0.91: that's the ceiling. So the EEG signal is real but weak.
+EEG-trained models shift by a few points; rating-trained ones shift by up to 30.</p>
+
+<h2>Judgments pull in opposite directions</h2>
+<figure>
+  <img src="figures/tradeoff.svg" alt="Bar chart of the change in citing rate when the model is trained on each judgment: Impressive +14.1, Interesting +8.2, Easy to understand −3.7, Obvious −9.0.">
+  <figcaption>One model per judgment, trained on everyone's ratings. 4 of the 9 judgments.</figcaption>
+</figure>
+<p>Sources make answers more interesting and more impressive, but also less obvious and harder to understand. The
+model follows whichever judgment it's trained on: optimise for "interesting" and it cites more; optimise for "easy to
+understand" and it cites less. Trained on EEG instead, the "easy" models also cited less for the people who really
+found sourced answers harder to understand (ρ = 0.37), though the effect doesn't survive correction for testing nine
+judgments.</p>
+
+<h2>What this means</h2>
+<p>With a dataset never designed for this, one session and 80 answers per person, a person's EEG alone was enough to
+pull a language model toward their preferences. Personalisation from brain signals works. With a BCI worn every day,
+everyone could have their own model, fine-tuned continuously on their own reactions.</p>
+<blockquote>BCI companies will become personal-agent companies: they will be the ones closest to this incredibly rich fine-tuning signal.</blockquote>
+<p>That richness is the opportunity, as a few seconds of EEG carry many judgments at once (interest, clarity, certainty,
+familiarity). But richness is also the danger: optimise only for what feels
+easy, and the model quietly stops citing its sources. Training on neurofeedback will give us exactly what we optimise
+for, so we have to choose that carefully.</p>
+
+<h2>Limits</h2>
+<p>This is a feasibility study on a dataset built for something else: each question was heard in only one version,
+and each person came in once. The effects are small, a single model trained on everyone's EEG didn't move, and the
+language model itself is small. The next step is a dataset designed for this, with both versions of every answer,
+more answers per person, and repeated sessions.</p>
+
+<hr>
+<p class="foot">Paper: on arXiv soon. Code: <a href="https://github.com/r-scibo/DPO_with_neurofeedback">github.com/r-scibo/DPO_with_neurofeedback</a>.</p>
+<ol class="refs">
+  <li>Chavarriaga, R. &amp; Millán, J. del R. (2010). Learning from EEG error-related potentials in noninvasive brain-computer interfaces. <i>IEEE TNSRE</i>. <a href="https://infoscience.epfl.ch/record/149292">link</a></li>
+  <li>Spapé, M. et al. (2021). Brain-computer interface for generating personally attractive images. <i>IEEE Trans. Affective Computing</i>. <a href="https://research.fi/en/results/publication/0398861823">link</a></li>
+  <li>Harada, Y. &amp; Oseki, Y. (2025). Cognitive feedback: decoding human feedback from cognitive signals. <i>Fourth Workshop on HCI+NLP</i>. <a href="https://aclanthology.org/2025.hcinlp-1.17">link</a></li>
+  <li>Santaniello et al. (2026). Towards reinforcement learning from neural feedback: mapping fNIRS signals to agent performance. <i>AAAI</i>. <a href="https://ojs.aaai.org/index.php/AAAI/article/view/38823">link</a></li>
+  <li>Short, C., Basart, S. &amp; Erisken, S. (2026). Steering transformer attention with human EEG. <i>PMLR 308</i>. <a href="https://proceedings.mlr.press/v308/short26a.html">link</a></li>
+  <li>Choi, G.-Y. et al. (2024). EEG dataset for the recognition of different emotions naturally induced in voice-user interaction. <i>Scientific Data</i> 11:1084. <a href="https://doi.org/10.1038/s41597-024-03887-9">link</a></li>
+  <li>Rafailov, R. et al. (2023). Direct preference optimization. <i>NeurIPS</i>. <a href="https://arxiv.org/abs/2305.18290">link</a></li>
+</ol>
+
+</main>
+</body>
+</html>
