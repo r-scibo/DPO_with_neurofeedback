@@ -1,0 +1,297 @@
+qid,question,answers,split
+0,Who created Hangul?,Sejong,test
+1,In what year was Hunminjeongeum proclaimed?,1446,test
+2,What is the capital of South Korea?,Seoul,calibration
+3,What is the largest island in South Korea?,Jeju,test
+4,What is the second largest city in South Korea?,Busan,test
+5,Which admiral is famous for the turtle ships?,Yi Sun-sin|Yi Sun-shin|Lee Sun-sin|Yi Sunsin,test
+6,What is the name of the Korean national anthem?,Aegukga,calibration
+7,In what year did the Korean War begin?,1950,test
+8,In what year was the Korean War armistice signed?,1953,calibration
+9,What is the currency of South Korea?,won,test
+10,Which city hosted the 1988 Summer Olympics?,Seoul,calibration
+11,What is the traditional Korean dress called?,hanbok,test
+12,What is the Korean fermented cabbage dish called?,kimchi,test
+13,Which dynasty built Gyeongbokgung Palace?,Joseon,calibration
+14,What is the longest river in South Korea?,Nakdong,test
+15,What is the highest mountain in South Korea?,Hallasan|Halla,test
+16,Which river flows through Seoul?,Han River|Hangang|Han,test
+17,Who founded the Goryeo dynasty?,Wang Geon|Taejo,test
+18,Which Korean martial art is an Olympic sport?,taekwondo,test
+19,In what year was Korea liberated from Japanese rule?,1945,test
+20,What is the Korean Lunar New Year called?,Seollal,test
+21,What is the Korean harvest festival called?,Chuseok,test
+22,What is the Korean alphabet called?,Hangul|Hangeul,test
+23,What is the name of the ancient observatory in Gyeongju?,Cheomseongdae,test
+24,Which kingdom had its capital at Gyeongju?,Silla,test
+25,Which country co-hosted the 2002 FIFA World Cup with Japan?,South Korea|Korea,test
+26,Which temple in Gyeongju is a World Heritage site together with Seokguram?,Bulguksa,test
+27,Which Korean film won the Academy Award for Best Picture in 2020?,Parasite,test
+28,"Who directed the film ""Parasite""?",Bong Joon-ho|Bong Joon Ho,test
+29,"Which K-pop group sang ""Dynamite""?",BTS,test
+30,"Who sang ""Gangnam Style""?",Psy,calibration
+31,What is the border zone between North and South Korea called?,DMZ|Demilitarized Zone,test
+32,What is the capital of North Korea?,Pyongyang,test
+33,What is the main ingredient of makgeolli?,rice,test
+34,What is the Korean dish of mixed rice with vegetables called?,bibimbap,calibration
+35,What is the Korean marinated grilled beef dish called?,bulgogi,calibration
+36,What is the area code of Seoul?,02,test
+37,What is the area code of Busan?,051,test
+38,What is the emergency number for fire and ambulance in Korea?,119,test
+39,What is the emergency number for the police in Korea?,112,calibration
+40,Which Korean company makes Galaxy phones?,Samsung,calibration
+41,Which Korean company makes the Sonata car?,Hyundai,test
+42,What is the main international airport serving Seoul?,Incheon,test
+43,What is the name of the tower on Namsan in Seoul?,Seoul Tower|Namsan Tower,test
+44,Who was the first president of South Korea?,Syngman Rhee|Rhee Syng-man|Lee Seung-man,test
+45,In what year was the Gwangju Uprising?,1980,test
+46,What is the sea between Korea and Japan called in Korea?,East Sea,test
+47,Which Korean city hosts a famous international film festival every October?,Busan,test
+48,What is the name of the fortress in Suwon?,Hwaseong,test
+49,Which of the Three Kingdoms of Korea was in the north?,Goguryeo,test
+50,Which Korean temple holds the Tripitaka Koreana?,Haeinsa,test
+51,What is a Korean public bathhouse with saunas called?,jjimjilbang,test
+52,What fermented soybean paste is used in Korean stews?,doenjang,calibration
+53,What is Korean red chili paste called?,gochujang,test
+54,Which Korean holiday celebrates the creation of Hangul?,Hangul Day|Hangeul Day|Hangulnal,test
+55,On what date is Hangul Day?,October 9|October 9th|9 October,test
+56,On what date is Korean Liberation Day?,August 15|August 15th|15 August,calibration
+57,What is the Korean traditional heated floor called?,ondol,test
+58,What is the name of the Korean flag?,Taegeukgi|Taegukgi,test
+59,What colors are in the circle at the center of the Korean flag?,red and blue|blue and red,test
+60,What is the capital of France?,Paris,test
+61,What is the capital of Japan?,Tokyo,test
+62,What is the capital of Australia?,Canberra,test
+63,What is the capital of Canada?,Ottawa,test
+64,What is the capital of Germany?,Berlin,calibration
+65,What is the capital of Italy?,Rome,test
+66,What is the capital of Spain?,Madrid,test
+67,What is the capital of China?,Beijing,test
+68,What is the capital of Brazil?,Brasília|Brasilia,test
+69,What is the capital of Egypt?,Cairo,test
+70,What is the capital of Russia?,Moscow,test
+71,What is the capital of India?,New Delhi,calibration
+72,What is the capital of Turkey?,Ankara,test
+73,What is the capital of Thailand?,Bangkok,test
+74,What is the capital of Vietnam?,Hanoi,test
+75,What is the capital of Argentina?,Buenos Aires,test
+76,What is the capital of Kenya?,Nairobi,test
+77,What is the capital of Norway?,Oslo,test
+78,What is the capital of Portugal?,Lisbon,test
+79,What is the capital of Mexico?,Mexico City,test
+80,What is the capital of New Zealand?,Wellington,test
+81,What is the capital of Switzerland?,Bern|Berne,test
+82,What is the capital of the Philippines?,Manila,test
+83,What is the capital of Greece?,Athens,test
+84,What is the capital of Poland?,Warsaw,test
+85,What is the capital of Austria?,Vienna,test
+86,What is the highest mountain in the world?,Everest,test
+87,What is the largest ocean in the world?,Pacific,test
+88,What is the largest hot desert in the world?,Sahara,test
+89,What is the largest country by area?,Russia,calibration
+90,What is the smallest country in the world?,Vatican,calibration
+91,On which continent is Egypt?,Africa,test
+92,What is the largest continent?,Asia,test
+93,How many continents are there?,seven|7,test
+94,Which river flows through Paris?,Seine,calibration
+95,Which river flows through London?,Thames,test
+96,Which river flows through Cairo?,Nile,test
+97,In which city is the Colosseum?,Rome,test
+98,In which city is the Statue of Liberty?,New York,test
+99,In which country is Machu Picchu?,Peru,test
+100,In which country are the pyramids of Giza?,Egypt,calibration
+101,In which city is the Taj Mahal?,Agra,test
+102,Which country is home to the kangaroo?,Australia,calibration
+103,What is the largest island in the world?,Greenland,calibration
+104,Which mountain range contains Mount Everest?,Himalaya,test
+105,What is the official language of Brazil?,Portuguese,test
+106,What is the currency of Japan?,yen,test
+107,What is the currency of the United Kingdom?,pound,test
+108,What is the currency of China?,yuan|renminbi,calibration
+109,What is the currency of the United States?,dollar,test
+110,What is the currency of Switzerland?,franc,test
+111,Which ocean lies between Africa and Australia?,Indian,test
+112,What is the deepest ocean trench?,Mariana,test
+113,Which strait separates Spain and Morocco?,Gibraltar,calibration
+114,In which country is the city of Istanbul?,Turkey|Türkiye|Turkiye,test
+115,What is the chemical symbol for gold?,Au,test
+116,What is the chemical symbol for sodium?,Na,test
+117,What is the chemical formula of water?,H2O|H₂O,test
+118,Which planet is closest to the Sun?,Mercury,test
+119,What is the largest planet in the solar system?,Jupiter,test
+120,Which planet is known as the Red Planet?,Mars,test
+121,How many planets are in the solar system?,eight|8,test
+122,Which gas do plants absorb for photosynthesis?,carbon dioxide|CO2|CO₂,test
+123,What is the boiling point of water in Celsius at sea level?,100,test
+124,What is the freezing point of water in Fahrenheit?,32,test
+125,Who developed the theory of relativity?,Einstein,test
+126,Who proposed the theory of evolution by natural selection?,Darwin,test
+127,Who discovered penicillin?,Fleming,calibration
+128,Who formulated the laws of motion and universal gravitation?,Newton,calibration
+129,What is the hardest natural substance?,diamond,test
+130,How many bones are in the adult human body?,206,test
+131,Which organ pumps blood through the body?,heart,test
+132,What is the largest organ of the human body?,skin,test
+133,How many chromosomes do humans have?,46,test
+134,What is the atomic number of carbon?,6|six,test
+135,What is the most abundant gas in Earth's atmosphere?,nitrogen,test
+136,Which vitamin does the body make from sunlight?,vitamin D,test
+137,What is the closest star to Earth?,Sun,test
+138,Who was the first person to walk on the Moon?,Armstrong,test
+139,In what year did humans first land on the Moon?,1969,test
+140,What is the unit of electrical resistance?,ohm,test
+141,What is the SI unit of force?,newton,test
+142,Who invented the telephone?,Bell,test
+143,Who created the periodic table?,Mendeleev|Mendeleyev,test
+144,Which part of the cell is called its powerhouse?,mitochondria|mitochondrion,test
+145,Which blood type is the universal donor?,O negative|O-|O neg,calibration
+146,What is the pH of pure water?,7|seven,test
+147,Which element has the symbol Fe?,iron,test
+148,What is the largest mammal?,blue whale,test
+149,Who painted the Mona Lisa?,Leonardo|da Vinci,calibration
+150,"Who wrote ""Romeo and Juliet""?",Shakespeare,test
+151,"Who composed the ""Moonlight Sonata""?",Beethoven,test
+152,"Who painted ""The Starry Night""?",Van Gogh,test
+153,"Who wrote ""Pride and Prejudice""?",Austen,test
+154,"Who wrote ""The Old Man and the Sea""?",Hemingway,test
+155,"Who wrote the ""Harry Potter"" books?",Rowling,test
+156,In what year did World War II end?,1945,test
+157,In what year did World War I begin?,1914,calibration
+158,In what year did the Berlin Wall fall?,1989,calibration
+159,Who was the first President of the United States?,Washington,calibration
+160,In what year did the Titanic sink?,1912,test
+161,In what year did Columbus reach the Americas?,1492,test
+162,Who was the first emperor of China?,Qin Shi Huang|Shi Huangdi|Qin Shihuang,test
+163,In which country did the Olympic Games originate?,Greece,test
+164,Who painted the ceiling of the Sistine Chapel?,Michelangelo,test
+165,"Who composed ""The Four Seasons""?",Vivaldi,test
+166,"Who wrote ""The Little Prince""?",Saint-Exupéry|Saint-Exupery|Exupéry|Exupery,test
+167,"Who wrote ""Don Quixote""?",Cervantes,test
+168,Which ship carried the Pilgrims to America in 1620?,Mayflower,test
+169,Who led India's independence movement through nonviolence?,Gandhi,calibration
+170,Who was the first woman to win a Nobel Prize?,Curie,test
+171,In what year did the French Revolution begin?,1789,test
+172,In what year did the Soviet Union dissolve?,1991,calibration
+173,Who founded Microsoft with Paul Allen?,Gates,test
+174,Who co-founded Apple with Steve Wozniak?,Jobs,test
+175,Which company makes the iPhone?,Apple,calibration
+176,Who founded Amazon?,Bezos,test
+177,In what year was the first iPhone released?,2007,test
+178,What is the name of Google's parent company?,Alphabet,calibration
+179,Which company created the Windows operating system?,Microsoft,test
+180,"Who wrote ""1984""?",Orwell,test
+181,"Who sang ""Thriller""?",Michael Jackson,calibration
+182,"Which band sang ""Yesterday""?",Beatles,test
+183,"Who composed ""The Magic Flute""?",Mozart,test
+184,In which city were the 2008 Summer Olympics held?,Beijing,calibration
+185,Which country won the 2018 FIFA World Cup?,France,test
+186,How many players does a soccer team have on the field?,eleven|11,test
+187,How many rings are on the Olympic flag?,five|5,test
+188,"In which sport is the term ""home run"" used?",baseball,calibration
+189,"Which studio made ""Toy Story""?",Pixar,test
+190,"Who directed the 1997 film ""Titanic""?",Cameron,calibration
+191,What is the name of the wizard school in Harry Potter?,Hogwarts,test
+192,"Who wrote ""The Lord of the Rings""?",Tolkien,test
+193,Which country gave the Statue of Liberty to the United States?,France,test
+194,How many centimeters are in one meter?,100,test
+195,How many meters are in one kilometer?,"1,000|1000",test
+196,How much is 1 mile in kilometers?,1.609|1.61|1.6,test
+197,How much is 1 inch in centimeters?,2.54,test
+198,How much is 1 foot in centimeters?,30.48,calibration
+199,How many grams are in one kilogram?,"1,000|1000",calibration
+200,How much is 1 pound in kilograms?,0.4536|0.454|0.45,calibration
+201,How many minutes are in one day?,"1,440|1440",test
+202,How many seconds are in one hour?,"3,600|3600",test
+203,How many days are in a leap year?,366,test
+204,What is 25 times 4?,100,test
+205,What is 144 divided by 12?,12,calibration
+206,What is 15% of 200?,30,test
+207,What is the square root of 81?,9|nine,test
+208,What is 12 squared?,144,test
+209,"How much is a 20% discount from 30,000 won?","24,000|24000",test
+210,How much is 10 kilometers in miles?,6.21|6.2,test
+211,How much is 100 degrees Fahrenheit in Celsius?,37.8|37.7|37.78,test
+212,How many liters are in one US gallon?,3.785|3.79|3.78,test
+213,What is 7 times 8?,56,test
+214,What is 1000 minus 357?,643,test
+215,How many hours are in one week?,168,test
+216,What is half of 250?,125,test
+217,How many sides does a hexagon have?,six|6,test
+218,What is the sum of the angles of a triangle?,180,calibration
+219,How much is 5 feet in meters?,1.524|1.52,test
+220,How many millimeters are in one centimeter?,10|ten,calibration
+221,What is 9 times 9?,81,test
+222,How much is 1 kilogram in pounds?,2.2|2.20|2.205,test
+223,How much is 30 degrees Celsius in Fahrenheit?,86,test
+224,How many weeks are in a year?,52,test
+225,What is 2 to the power of 10?,"1,024|1024",test
+226,How many zeros are in one million?,six|6,calibration
+227,"What is 50% of 84,000 won?","42,000|42000",test
+228,How many months have 31 days?,seven|7,test
+229,How do you say '사과' in English?,apple,test
+230,How do you say '감사합니다' in English?,thank you,calibration
+231,How do you say '고양이' in English?,cat,calibration
+232,How do you say '바다' in English?,sea|ocean,test
+233,How do you say '학교' in English?,school,test
+234,How do you say '사랑해요' in English?,love you,calibration
+235,How do you say '책' in English?,book,test
+236,How do you say '물' in English?,water,test
+237,How do you say '안녕하세요' in English?,hello|hi,test
+238,How do you say '친구' in English?,friend,test
+239,How do you say '비' in English?,rain,test
+240,How do you say '하늘' in English?,sky,test
+241,How do you say '꽃' in English?,flower,test
+242,How do you say '집' in English?,house|home,test
+243,How do you say '강아지' in English?,puppy|dog,test
+244,What is the main ingredient of guacamole?,avocado,test
+245,Which country does sushi come from?,Japan,test
+246,Which country does pizza originally come from?,Italy,test
+247,What is the main ingredient of tofu?,soy,test
+248,Which fruit is used to make wine?,grape,test
+249,Which nut is used to make marzipan?,almond,test
+250,Which drink is made from fermented barley and hops?,beer,test
+251,What is the main ingredient of hummus?,chickpea,test
+252,Which spice gives curry its yellow color?,turmeric,test
+253,Which country does paella come from?,Spain,test
+254,Which vegetable is used to make sauerkraut?,cabbage,test
+255,What is the main ingredient of an omelet?,egg,calibration
+256,Which fruit is called the king of fruits in Southeast Asia?,durian,test
+257,Which grain is used to make Japanese sake?,rice,test
+258,Which animal produces honey?,bee,calibration
+259,What is the fastest land animal?,cheetah,test
+260,What is the tallest animal?,giraffe,test
+261,How many legs does a spider have?,eight|8,test
+262,How many legs does an insect have?,six|6,calibration
+263,What is a baby kangaroo called?,joey,test
+264,What is the largest bird?,ostrich,test
+265,Which black and white bear lives in China?,panda,test
+266,What do caterpillars turn into?,butterfly|butterflies|moth,test
+267,Which planet has the most famous rings?,Saturn,test
+268,What is the largest cat species?,tiger,test
+269,How many hearts does an octopus have?,three|3,calibration
+270,Which is the only mammal that can truly fly?,bat,calibration
+271,Which season comes after summer?,autumn|fall,test
+272,What is the tallest tree species?,redwood|sequoia,test
+273,What is the name of Earth's natural satellite?,Moon,test
+274,Which language is spoken in Mexico?,Spanish,test
+275,Which language is mainly spoken in Austria?,German,test
+276,Which country has a maple leaf on its flag?,Canada,test
+277,Which country's flag has a red circle on a white background?,Japan,test
+278,"Which country invented paper, according to tradition?",China,calibration
+279,Who invented the World Wide Web?,Berners-Lee,test
+280,"What does ""CPU"" stand for?",central processing unit,calibration
+281,"What does ""AI"" stand for?",artificial intelligence,test
+282,How many bits are in a byte?,eight|8,test
+283,What is the binary number 1010 in decimal?,10|ten,calibration
+284,Which company makes the PlayStation?,Sony,test
+285,Which company owns YouTube?,Google|Alphabet,calibration
+286,In what year was YouTube founded?,2005,calibration
+287,In what year was Google founded?,1998,test
+288,"Who wrote ""The Art of War""?",Sun Tzu|Sunzi|Sun Zi,test
+289,Which philosopher taught Alexander the Great?,Aristotle,test
+290,Who is the king of the gods in Greek mythology?,Zeus,calibration
+291,What is the longest bone in the human body?,femur|thigh,test
+292,How many teeth does an adult human usually have?,32,calibration
+293,What is the main language of Argentina?,Spanish,test
+294,What is the tallest building in the world?,Burj Khalifa,calibration
+295,In which city is the Burj Khalifa?,Dubai,test

@@ -1,0 +1,81 @@
+row,voice,detail,question,sourced,plain
+1,child,simple,Where were the 2018 Winter Olympics held?,"According to Wikipedia, the 2018 Winter Olympics were held in Pyeongchang.",It was held in Pyeongchang.
+2,announcer,detailed,What is the agency that predicts the weather?,"According to Wikipedia, the agency that predicts the weather is the Korea Meteorological Administration.",It is the Korea Meteorological Administration.
+3,child,simple,Who is the founder of Facebook?,"According to Wikipedia, the founder of Facebook is Mark Zuckerberg.",It is Mark Zuckerberg.
+4,announcer,detailed,What is the national flower of the Republic of Korea?,"According to Wikipedia, the national flower of the Republic of Korea is Mugunghwa.",It is Mugunghwa.
+5,child,detailed,Who invented the first light bulb?,"According to Wikipedia, the inventor of the light bulb is Edison.",It is Edison.
+6,announcer,simple,Who is the first black president of the United States?,"According to Wikipedia, the first black president of the United States is Barack Obama.",It is Barack Obama.
+7,child,detailed,Which Korean government agency administers scholarships?,"According to the Korean administrative rules, scholarships are administered by the Korea Student Aid Foundation.",It is the Korea Student Aid Foundation.
+8,announcer,simple,"Who is the historical figure drawn on the 50,000 won bill?","According to the Bank of Korea, the figure on the 50,000 won bill is Shin Saimdang.",It is Shin Saimdang.
+9,child,detailed,"What is the name of King Taejo, the founder of Joseon?","According to Wikipedia, the name of King Taejo is Lee Seong-gye.",It is Lee Seong-gye.
+10,announcer,simple,What is the highest mountain in Korea?,"According to Wikipedia, the highest mountain in Korea is Mt. Baekdusan.",It is Mt. Baekdusan.
+11,child,detailed,Which institution administers the national licenses?,"According to Wikipedia, the institution that administers the national licenses is the Human Resources Development Service of Korea.",It is the Human Resources Development Service of Korea.
+12,announcer,simple,What is the capital of England?,"According to Wikipedia, the capital of England is London.",It is London.
+13,child,simple,How many species of roses are there?,"According to Wikipedia, there are about 25,000 species of roses.","There are about 25,000 species."
+14,announcer,detailed,What is the area code of Gyeongsangbuk-do?,"According to Wikipedia, the area code of Gyeongsangbuk-do is 054.",It is 054.
+15,child,simple,What is the word for the withdrawal of the United Kingdom from the European Union?,"According to Wikipedia, the withdrawal of the United Kingdom from the European Union is called Brexit.",It is Brexit.
+16,announcer,detailed,What is the old name of Ulleung-do in Korea?,"According to Wikipedia, the old name of Ulleung-do is Usanguk.",It is Usanguk.
+17,child,simple,What is the stock price of Samsung Electronics today?,"According to the Korea Exchange, the stock price of Samsung Electronics today is 73,600 won.","It is 73,600 won."
+18,announcer,detailed,What is the capital of Macedonia?,"According to Wikipedia, the capital of Macedonia is Skopje.",It is Skopje.
+19,child,simple,What is the concentration of fine dust today?,"According to AirKorea, fine dust today is normal at 64 micrograms per cubic meter.",It is normal at 64 micrograms per cubic meter.
+20,announcer,detailed,How many calories are in Tteokbokki?,"According to the Ministry of Food and Drug Safety, it is about 304 kcal per 200 g of Tteokbokki.",It is about 304 kcal per 200 g of Tteokbokki.
+21,child,detailed,How do you say '귤' in English?,"According to the Oxford English Dictionary, 귤 is tangerine in English.",It is tangerine.
+22,announcer,simple,What is a Korean traditional alcohol?,"According to Wikipedia, a Korean traditional alcohol is Makgeolli.",It is Makgeolli.
+23,child,detailed,"What is the weather like in Miami, USA?","According to WeatherNews, Miami has a 0% chance of precipitation with some clouds.",There is a 0% chance of precipitation with some clouds.
+24,announcer,simple,Where is Halla University located?,"According to Wikipedia, Halla University is located in Heungeop-myeon, Wonju-si, Gangwon-do.","It is located in Heungeop-myeon, Wonju-si, Gangwon-do."
+25,child,detailed,"What is the population of Gumi-si, Gyeongsangbuk-do?","According to Wikipedia, the population of Gumi-si, Gyeongsangbuk-do is about 421,800.","It is about 421,800."
+26,announcer,simple,How old is IU?,"According to Wikipedia, IU is 27 years old.",She is 27 years old.
+27,child,detailed,What is the Japanese yen exchange rate?,"According to the Korea Exchange, the Japanese yen exchange rate is 11.33.",It is 11.33.
+28,announcer,simple,Who is the Minister of Health and Welfare of Korea?,"According to Wikipedia, the Minister of Health and Welfare of Korea is Park Neung-hoo.",It is Park Neung-hoo.
+29,child,simple,How much is 600 yards in meters?,"According to Google unit converter, 600 yards is 548.64 meters.",It is 548.64 meters.
+30,announcer,detailed,When is the foundation day of Kumoh National Institute of Technology?,"According to Wikipedia, the foundation day of Kumoh National Institute of Technology is December 31, 1979.","It is December 31, 1979."
+31,child,simple,What is the height of Mt. Hallasan?,"According to Wikipedia, the height of Mt. Hallasan is about 1,950 meters.","It is about 1,950 meters."
+32,announcer,detailed,What is the current stock price of Kakao?,"According to Google Finance, the current stock price of Kakao is 375,000 won.","It is 375,000 won."
+33,child,simple,Who is the 46th President of the United States?,"According to Wikipedia, the 46th President of the United States is Joe Biden.",It is Joe Biden.
+34,announcer,detailed,When is Labor Day?,"According to the National Archives of Korea, Labor Day is celebrated on May 1st every year.",It is May 1st every year.
+35,child,simple,What is the first intangible cultural property of Korea?,"According to Wikipedia, the first intangible cultural property of Korea is the Royal Ancestral Rites Music.",It is the Royal Ancestral Rites Music.
+36,announcer,detailed,Who is the first queen of Silla?,"According to Wikipedia, the first queen of Silla is Seondeok.",It is Seondeok.
+37,child,detailed,When did the Imjin War break out?,"According to Wikipedia, the Imjin War broke out in 1592.",It broke out in 1592.
+38,announcer,simple,What was the plague in Europe in the 14th century?,"According to Wikipedia, the plague in 14th-century Europe was the Black Death.",It is the Black Death.
+39,child,detailed,Who is the current Minister of Foreign Affairs of Korea?,"According to Wikipedia, the current Minister of Foreign Affairs of Korea is Kang Kyung-hwa.",It is Kang Kyung-hwa.
+40,announcer,simple,In what year did the singer Cho Yong-pil debut?,"According to Wikipedia, the singer Cho Yong-pil debuted in 1979.",It was 1979.
+41,child,detailed,What is Kim Gu's real name?,"According to Wikipedia, Kim Gu's real name is Kim Chang-su.",It is Kim Chang-su.
+42,announcer,simple,What is the national treasure number of Donguibogam?,"According to the Cultural Heritage Administration, Donguibogam is national treasure number 319.",It is 319.
+43,child,detailed,What is the height of the Statue of Liberty?,"According to Wikipedia, the height of the Statue of Liberty is 93 meters.",It is 93 meters.
+44,announcer,simple,How old is President Moon Jae-in?,"According to Wikipedia, President Moon Jae-in is 67 years old.",He is 67 years old.
+45,child,simple,"What is the release date of the movie ""Iron Man""?","According to Wikipedia, the movie ""Iron Man"" was released on April 30, 2008.","It is April 30, 2008."
+46,announcer,detailed,How much is 1 yard in meters?,"According to Google unit converter, 1 yard is 0.914 meters.",It is 0.914 meters.
+47,child,simple,When does Everland open?,"According to the Everland website, Everland opens at 10 am.",It is 10 am.
+48,announcer,detailed,What is the monetary unit used by the European Union?,"According to Wikipedia, the monetary unit of the European Union is the euro.",It is the euro.
+49,child,simple,What is the area code of Gangwon-do?,"According to Wikipedia, the area code of Gangwon-do is 033.",It is 033.
+50,announcer,detailed,Which company is Instagram affiliated with?,"According to Wikipedia, Instagram is affiliated with Facebook.",It is Facebook.
+51,child,simple,What is the main food on the winter solstice?,"According to Wikipedia, the main food on the winter solstice is patjuk.",It is patjuk.
+52,announcer,detailed,When was the first COVID-19 case in Korea?,"According to the KDCA, the first COVID-19 case in Korea was confirmed on January 20, 2020.","It was January 20, 2020."
+53,child,detailed,Which country is the poorest in the world?,"According to the IMF, South Sudan has the lowest GDP in the world.",It is South Sudan.
+54,announcer,simple,What is 365 times 12?,"According to a calculator, 365 times 12 is 4,380.","It is 4,380."
+55,child,detailed,Which place is the coldest in the world?,"According to Yonhap News, the Sakha Republic in Siberia, Russia, is the coldest.","It is the Sakha Republic in Siberia, Russia."
+56,announcer,simple,"How much is a 40% discount from 50,000 won?","According to a calculator, a 40% discount from 50,000 won is 30,000 won.","It is 30,000 won."
+57,child,detailed,What is the current dollar exchange rate?,"According to the CNBC exchange rate, one dollar is currently 1,105 won.","It is 1,105 won."
+58,announcer,simple,What day is Christmas this year?,"According to the calendar, Christmas this year is on Saturday.",It is Saturday.
+59,child,detailed,Who painted 'The Scream'?,"According to Wikipedia, the artist of 'The Scream' is Edvard Munch.",It is Edvard Munch.
+60,announcer,simple,How do you say '오늘 날씨 어때요' in English?,"According to the Oxford English Dictionary, it is 'What's the weather like today?'.",It is 'What's the weather like today?'.
+61,child,simple,How much are 65 inches in centimeters?,"According to Google unit converter, 65 inches is 165.1 cm.",It is 165.1 cm.
+62,announcer,detailed,What was the ranking of the Samsung baseball team in 2020?,"According to the KBO, Samsung finished the 2020 season in 8th place.",It was 8th place.
+63,child,simple,What does '만반잘부' mean?,"According to Naver Dictionary, it is an abbreviation of '만나서 반가워 잘 부탁해'.",It is an abbreviation of '만나서 반가워 잘 부탁해'.
+64,announcer,detailed,How long does it take to get from Kumoh National Institute of Technology to Gumi Station?,"According to T-map, it takes about 20 minutes on average from Kumoh National Institute of Technology to Gumi Station.",It takes about 20 minutes.
+65,child,simple,What is the famous food in Busan?,"According to Wikipedia, Busan is famous for pork and rice soup, sashimi, Dongnae green onion pancake and wheat noodles.","It is pork and rice soup, sashimi, Dongnae green onion pancake and wheat noodles."
+66,announcer,detailed,When did Chairman Lee Kun-hee die?,"According to Wikipedia, Chairman Lee Kun-hee died on October 25, 2020.","It was October 25, 2020."
+67,child,simple,When is shrimp in season?,"According to Wikipedia, shrimp is in season between autumn and early winter.",It is between autumn and early winter.
+68,announcer,detailed,What is the average fertility rate of Korea?,"According to the UNFPA, the average fertility rate of Korea is 1.1, the lowest in the world.","It is 1.1, the lowest in the world."
+69,child,detailed,What foods contain a lot of vitamin C?,"According to the MFDS, fresh vegetables and fruits such as oranges and tomatoes contain a lot of vitamin C.",Fresh vegetables and fruits such as oranges and tomatoes.
+70,announcer,simple,"Who sang ""Chandelier""?","According to Wikipedia, ""Chandelier"" was sung by Sia.",It is Sia.
+71,child,detailed,"When was the cartoon ""Crayon Shin-chan"" first serialized?","According to Wikipedia, the cartoon ""Crayon Shin-chan"" has been running since April 1992.",It has been running since April 1992.
+72,announcer,simple,Which animation is the song 'Let It Go' from?,"According to Wikipedia, 'Let It Go' is from Frozen.",It is Frozen.
+73,child,detailed,What are the top 3 delicacies in the world?,"According to the Dong-A Ilbo, they are caviar, foie gras and truffle.","They are caviar, foie gras and truffle."
+74,announcer,simple,When was Starbucks founded?,"According to Wikipedia, Starbucks was founded on March 13, 1971.","It is March 13, 1971."
+75,child,detailed,What is the most expensive car in the world?,"According to Naver Post, the most expensive car in the world is the Rolls-Royce Sweptail, which costs about 14.6 billion won.","It is the Rolls-Royce Sweptail, which costs about 14.6 billion won."
+76,announcer,simple,What is the global company ranking of Samsung Electronics?,"According to Forbes, Samsung Electronics is 16th in the world.",It is 16th in the world.
+77,child,simple,When was KakaoTalk released?,"According to Wikipedia, KakaoTalk was released on March 18, 2010.","It is March 18, 2010."
+78,announcer,detailed,When will the next total solar eclipse occur?,"According to the KASI, the next total solar eclipse in Korea occurs on September 2, 2035.","It is September 2, 2035."
+79,child,simple,How many islands are there in Korea?,"According to Wikipedia, there are 3,348 islands in Korea.","It is 3,348."
+80,announcer,detailed,"When was the movie ""Extreme Job"" released?","According to the KOFIC, the movie ""Extreme Job"" was released on January 23, 2019.","It is January 23, 2019."
